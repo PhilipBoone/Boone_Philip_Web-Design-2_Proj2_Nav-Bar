@@ -1,0 +1,129 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+    text-align: center;
+}
+
+.Wicked-Head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: ivory;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Wicked-Head2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: ivory;
+    text-align: center;
+}
+
+.Sally-Head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Sally-Head2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+.Wicked {
+    background-color: forestgreen;
+}
+
+.Sally {
+    background-color: gold;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: ivory;
+    font-weight: 565;
+}
+
+ul {
+    text-decoration: none;
+    background-color: teal;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    color: ivory;
+    font-weight: 50px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: indigo;
+    text-align: center;
+}
+
+.Wicked-p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ivory;
+    text-align: center;
+}
+
+.Sally-p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+}
+
+@media screen and (min-width: 166px) {
+    
+}
+
+@media screen and (min-width: 301px) {
+    max-width: 700px;
+}
+
+@media (max-width: 375px) {
+    li {
+        float: left;
+    }
+    }
+    a {
+        float: left;
+    }
+    img {
+        max-width: 165px;
+    }
+}
+
+@media (max-width: 1000px) {
+    img {
+        max-width: 500px;
+    }
+}
+
+
